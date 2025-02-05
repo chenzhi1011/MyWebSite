@@ -8,20 +8,21 @@ While studying architecture, I identified the following issues:
 Considering the security concerns of relying on third-party platforms, I decided to utilize my technical skills to create a portfolio website from scratch (0→1).
 
 # Pages
-![myweb-intro](images/myWeb-intro.jpg)
+![myweb-intro](images/myWeb-intro.jpg) 
+
 # Modules
 - Display Module
 - Interaction Module
-  -	Comment Module
-	-	ContactMe Module
+  - Comment Module
+  - ContactMe Module
 
 # Backend API
--	Comment API
+- Comment API
 Stores visitors’ comments in the database for data persistence.
-![commentAPI](images/commentAPI)
--	Email API
+![commentAPI](images/commentAPI.jpg)
+- Email API
 Calls Gmail’s SMTP API to send emails to myself.
-![emailAPI](images/emailAPI)
+![emailAPI](images/emailAPI.jpg)
 
 # Tech Stack
 -	Frontend: HTML, CSS, JavaScript (Rebuilding with React)
@@ -32,7 +33,7 @@ Calls Gmail’s SMTP API to send emails to myself.
 The frontend and backend are deployed on separate servers. The frontend accesses the backend server through an Nginx reverse proxy, preventing the backend address from being exposed and enhancing security.
 ![deployment](images/deployment-myweb.jpg)
 
----
+## 🌏 Language Divider 🌏 ここから日本語の紹介
 
 # 動機と概要
 建築を学んでいた時代で、以下の課題を発見しました。
@@ -41,7 +42,7 @@ The frontend and backend are deployed on separate servers. The frontend accesses
 第三者プラットフォームに依存することのセキュリティ面を考慮し、自分の技術を活かして０→１ポートフォリオサイトを制作しようと考えています。  
 
 # 画面表示
-![mywebintro]()
+![myweb-intro](images/myWeb-intro.jpg) 
 
 # 機能モジュール
 - 表示モジュール
@@ -52,10 +53,10 @@ The frontend and backend are deployed on separate servers. The frontend accesses
 # Backend API
 - comment API
 訪問者のコメントをdbに書き込み、データを永続化する  
-[!commentAPI]()
+![commentAPI](images/commentAPI.jpg)
 - Email API
 GmailのSMTPのAPIが呼び出されて、自分宛にメールを送信する  
-[!emailAPI]()
+![emailAPI](images/emailAPI.jpg)
 
 # 技术栈
 - Frontend: HTML,CSS,JavaScript（Reactで再構築中）
@@ -64,6 +65,6 @@ GmailのSMTPのAPIが呼び出されて、自分宛にメールを送信する
 
 # 部署结构
 フロントエンドとバックエンドを別々のサーバーにデプロイする。フロントエンドはNginxのリバースプロキシを通じてバックエンドサーバーにアクセスし、バックエンドのアドレスを公開しないことでセキュリティを強化する。
-[!deployment]()
+![deployment](images/deployment-myweb.jpg)
 
 
