@@ -19,10 +19,10 @@ Considering the security concerns of relying on third-party platforms, I decided
 # Backend API
 - Comment API
 Stores visitors’ comments in the database for data persistence.
-![commentAPI](images/commentAPI.jpg)
+![commentAPI](images/commentAPI.png)
 - Email API
 Calls Gmail’s SMTP API to send emails to myself.
-![emailAPI](images/emailAPI.jpg)
+![emailAPI](images/emailAPI.png)
 
 # Tech Stack
 -	Frontend: HTML, CSS, JavaScript (Rebuilding with React)
@@ -53,10 +53,10 @@ The frontend and backend are deployed on separate servers. The frontend accesses
 # Backend API
 - comment API
 訪問者のコメントをdbに書き込み、データを永続化する  
-![commentAPI](images/commentAPI.jpg)
+![commentAPI](images/commentAPI.png)
 - Email API
 GmailのSMTPのAPIが呼び出されて、自分宛にメールを送信する  
-![emailAPI](images/emailAPI.jpg)
+![emailAPI](images/emailAPI.png)
 
 # 技术栈
 - Frontend: HTML,CSS,JavaScript（Reactで再構築中）
