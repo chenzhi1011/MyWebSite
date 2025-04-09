@@ -23,12 +23,12 @@
 GmailのSMTPのAPIが呼び出されて、自分宛にメールを送信する  
 ![emailAPI](images/emailAPI.png)
 
-# 技术栈
+# 技術ステック
 - Frontend: HTML,CSS,JavaScript（Reactで再構築中）
 - Backend: Java,Spring,SpringBoot,Mybatis,MySQL
 - Other: docker, AWS EC2,AWS Linux,Nginx,Postman
 
-# 部署结构
+# デプロイ
 フロントエンドとバックエンドを別々のサーバーにデプロイする。フロントエンドはNginxのリバースプロキシを通じてバックエンドサーバーにアクセスし、バックエンドのアドレスを公開しないことでセキュリティを強化する。
 ![deployment](images/deployment-myweb.jpg)
 
