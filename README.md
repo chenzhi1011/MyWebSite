@@ -24,15 +24,15 @@ GmailのSMTPのAPIが呼び出されて、自分宛にメールを送信する
 ![emailAPI](images/emailAPI.png)
 
 # 技術ステック
-- Frontend: HTML,CSS,JavaScript（Reactで再構築中）
-- Backend: Java,Spring,SpringBoot,Mybatis,MySQL
-- Other: docker, AWS EC2,AWS Linux,Nginx,Postman
+- フロントエンド: HTML,CSS,JavaScript（Reactで再構築中）
+- バックエンド: Java,Spring,SpringBoot,Mybatis,MySQL
+- 他の: docker, AWS EC2,AWS Linux,Nginx,Postman
 
 # デプロイ
 フロントエンドとバックエンドを別々のサーバーにデプロイする。フロントエンドはNginxのリバースプロキシを通じてバックエンドサーバーにアクセスし、バックエンドのアドレスを公開しないことでセキュリティを強化する。
 ![deployment](images/deployment-myweb.jpg)
 
-## 🌏 Language Divider 🌏 
+# 🌏 Language Divider 🌏 
 
 # Motivation and Overview
 While studying architecture, I identified the following issues:
