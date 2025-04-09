@@ -21,7 +21,7 @@
 ![commentAPI](images/commentAPI.png)
 - Email API
 GmailのSMTPのAPIが呼び出されて、自分宛にメールを送信する  
-![emailAPI](images/emailAPI.png)
+
 
 # 技術ステック
 - フロントエンド: HTML,CSS,JavaScript（Reactで再構築中）
